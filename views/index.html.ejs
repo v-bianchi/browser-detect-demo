@@ -4,28 +4,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Browser detection tools demo</title>
 </head>
 <body>
-  <p>
-    <strong>Name: </strong>
-    <code><%= userAgentInfo.name %></code>
-  </p>
-  <p>
-    <strong>Version: </strong>
-    <code><%= userAgentInfo.version %></code>
-  </p>
-  <p>
-    <strong>Version number: </strong>
-    <code><%= userAgentInfo.versionNumber %></code>
-  </p>
-  <p>
-    <strong>Mobile: </strong>
-    <code><%= userAgentInfo.mobile %></code>
-  </p>
-  <p>
-    <strong>OS: </strong>
-    <code><%= userAgentInfo.os %></code>
-  </p>
+  <h1>Browser detection tools demo</h1>
+  <hr>
+  <section>
+    <h2><code>detect-browser</code> NPM package</h2>
+    <p>
+      <strong>Name: </strong>
+      <code><%= browserDetectResults.name %></code>
+    </p>
+    <p>
+      <strong>Version: </strong>
+      <code><%= browserDetectResults.version %></code>
+    </p>
+    <p>
+      <strong>Version number: </strong>
+      <code><%= browserDetectResults.versionNumber %></code>
+    </p>
+    <p>
+      <strong>Mobile: </strong>
+      <code><%= browserDetectResults.mobile %></code>
+    </p>
+    <p>
+      <strong>OS: </strong>
+      <code><%= browserDetectResults.os %></code>
+    </p>
+  </section>
+  <hr>
+  <section>
+    <h2><code>browser-detect</code> NPM package</h2>
+    <p>
+      <strong>Type: </strong>
+      <code><%= detectBrowserResults.type %></code>
+    </p>
+    <p>
+      <strong>Name: </strong>
+      <code><%= detectBrowserResults.name %></code>
+    </p>
+    <p>
+      <strong>Version: </strong>
+      <code><%= detectBrowserResults.version %></code>
+    </p>
+    <p>
+      <strong>OS: </strong>
+      <code><%= detectBrowserResults.os %></code>
+    </p>
+  </section>
 </body>
 </html>
